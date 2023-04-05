@@ -1,0 +1,2667 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+@model List<Slider>
+
+<main>
+
+    <section id="slider">
+
+
+        <div class="">
+
+
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                     @foreach (var item in Model){
+
+                     
+                      <div class="swiper-slide">
+
+                       
+                        
+                         <h1>@item.Title</h1>
+                        <h3>@item.SlideInfo</h3>
+                        <button type="button" class="btn btn-warning"><b>SHOP NOW</b></button>
+                        <img src="~/./assets/img/Home/Slider/@item.Images">
+
+                        
+                        
+                     </div>
+
+                     }
+
+                    
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+    <section id="info-bar">
+
+        <div class="container">
+
+
+            <div class=" info-border">
+
+
+                <div class="col-3 info-bar-free">
+
+
+                    <div class="info-bar-free">
+
+                        <div class="info-bar-menu">
+
+                            <div>
+                                <i class="fa-solid fa-gift"></i>
+                            </div>
+
+
+
+                            <div>
+                                <div>
+
+                                    <b>
+                                        BONUS PLUS
+                                    </b>
+                                </div>
+
+                                <div>
+                                    <span>Get a bonus plus for buying more that three products</span>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="border-right-solid"></div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-3 info-bar-free">
+
+
+                    <div class="info-bar-free">
+
+                        <div class="info-bar-free-shoping">
+
+                            <div>
+                                <i class="fa-solid fa-truck"></i>
+                            </div>
+
+
+
+                            <div>
+                                <div>
+
+                                    <b>
+                                        FREE SHIPPING
+                                    </b>
+                                </div>
+
+                                <div>
+                                    <span>Free shipping on all orders over $99</span>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="border-right-solid"></div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-3 info-bar-free">
+
+
+                    <div class="info-bar-free">
+
+                        <div class="info-bar-free-shoping">
+
+                            <div>
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+
+
+
+                            <div>
+                                <div>
+
+                                    <b>
+                                        MONEY BACK GUARANTEE
+                                    </b>
+                                </div>
+
+                                <div>
+                                    <span>100% money back guarantee</span>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="border-right-solid"></div>
+
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="col-3  info-bar-free">
+
+
+
+                    <div class="info-bar-free-shoping">
+
+                        <div>
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+
+
+
+                        <div>
+                            <div>
+
+                                <b>
+                                    ONLINE SUPPORT 24/7
+                                </b>
+                            </div>
+
+                            <div>
+                                <span>Call us: 02 3555 65454 55</span>
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section id="card-prodacts-carousel">
+        <div class="container">
+            <div class="tab">
+                <div class="tab-menu">
+                    <button class="tab-menu-link" data-content="item-1">
+                        <span data-title="item-1">FEATURED PRODUCTS</span>
+                    </button>
+                    <button class="tab-menu-link is-active" data-content="item-2">
+                        <span data-title="item-2">LATEST PRODUCTS</span>
+                    </button>
+                    <button class="tab-menu-link" data-content="item-3">
+                        <span data-title="item-3">ON SALE PRODUCTS</span>
+                    </button>
+
+                </div>
+                <div class="tab-bar">
+                    <div class="tab-bar-content" id="item-1">
+                        <div class="texts">
+
+                            <p class="paragraph">
+
+
+                                <section id="card">
+
+
+
+
+
+
+                                    <div class="container">
+
+                                        <!-- Swiper -->
+                                        <div class="swiper mySwipers ">
+                                            <div class="swiper-wrapper swipers">
+                                                <div class="swiper-slide" data-id="1">
+                                                    <div class="card-prodact">
+
+
+                                                        <div class="cards">
+
+
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone 2.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist">
+
+
+                                                                <a class="heart " href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist "></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+
+
+                                                        </div>
+
+
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>ONTEC E Headset</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                            <span class="dolaricon">$</span><span class="cardproductprice">175.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="swiper-slide " data-id="2">
+                                                    <div class="card-prodact">
+
+
+                                                        <div class="cards">
+
+
+
+
+
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone3.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist ">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist "></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Solo Headset</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">235.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="swiper-slide" data-id="3">
+
+                                                    <div class="card-prodact">
+
+
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone4.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Ultra Whitte Wireless</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">350.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="swiper-slide" data-id="4">
+                                                    <div class="card-prodact">
+
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone en sonuncu.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Wireless Mondo</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">266.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                                <div class="swiper-slide" data-id="5">
+                                                    <div class="card-prodact">
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone 5.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Headset Perro</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">88.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="swiper-slide" data-id="6">
+
+                                                    <div class="card-prodact">
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone6.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+
+                                                            <div class="icon-wishlist ">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Dono Purple Wireless</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">100.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                                <div class="swiper-slide" data-id="7">
+                                                    <div class="card-prodact">
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/laptop.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Laptops</h6>
+
+                                                                </div>
+
+                                                                <h5>Tablet Red 8500U 2TB</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">100.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="swiper-slide" data-id="8">
+                                                    <div class="card-prodact">
+
+                                                        <div class="cards">
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/laptop (2).png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist "></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Laptops</h6>
+
+                                                                </div>
+
+                                                                <h5>Ellite Pro Book 15'6 7500U</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">850.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <!-- comment -->
+
+
+
+
+
+                                            </div>
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-paginations"></div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                </section>
+
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="tab-bar-content is-active" id="item-2">
+                        <div class="texts">
+
+
+                            <p class="paragraph">
+
+
+                                <section id="card">
+
+
+
+
+
+
+                                    <div class="container">
+
+                                        <!-- Swiper -->
+                                        <div class="swiper mySwipers ">
+                                            <div class="swiper-wrapper swipers">
+                                                <div class="swiper-slide" data-id="1">
+                                                    <div class="card-prodact">
+
+
+                                                        <div class="cards">
+
+
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone 2.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist">
+
+
+                                                                <a class="heart " href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist "></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+
+
+                                                        </div>
+
+
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>ONTEC E Headset</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                            <span class="dolaricon">$</span><span class="cardproductprice">175.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="swiper-slide " data-id="2">
+                                                    <div class="card-prodact">
+
+
+                                                        <div class="cards">
+
+
+
+
+
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone3.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist ">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist "></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Solo Headset</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">235.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="swiper-slide" data-id="3">
+
+                                                    <div class="card-prodact">
+
+
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone4.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Ultra Whitte Wireless</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">350.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="swiper-slide" data-id="4">
+                                                    <div class="card-prodact">
+
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone en sonuncu.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Wireless Mondo</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">266.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                                <div class="swiper-slide" data-id="5">
+                                                    <div class="card-prodact">
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone 5.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Headset Perro</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">88.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="swiper-slide" data-id="6">
+
+                                                    <div class="card-prodact">
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/headphone6.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+
+                                                            <div class="icon-wishlist ">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Headphones</h6>
+
+                                                                </div>
+
+                                                                <h5>Dono Purple Wireless</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">100.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                                <div class="swiper-slide" data-id="7">
+                                                    <div class="card-prodact">
+
+                                                        <div class="cards">
+
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/laptop.png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist"></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Laptops</h6>
+
+                                                                </div>
+
+                                                                <h5>Tablet Red 8500U 2TB</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">100.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="swiper-slide" data-id="8">
+                                                    <div class="card-prodact">
+
+                                                        <div class="cards">
+                                                            <div class="img">
+
+                                                                <a href="">
+                                                                    <img src="~/./assets/img/Home/card-prodact/laptop (2).png"
+                                                                         alt="">
+                                                                </a>
+
+
+                                                            </div>
+
+
+                                                            <div class="icon-wishlist">
+                                                                <a class="heart" href="">
+                                                                    <i class="fa-regular fa-heart cardwishlist "></i>
+                                                                </a><br>
+                                                                <a class="eyes" href="">
+                                                                    <i class="fa-regular fa-eye eyes"></i><br>
+                                                                </a>
+                                                                <a class="refresh" href="">
+                                                                    <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                                </a>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="addcart">
+
+                                                            <div class="info-prodact">
+
+                                                                <div class="info-pro">
+
+                                                                    <h6>Laptops</h6>
+
+                                                                </div>
+
+                                                                <h5>Ellite Pro Book 15'6 7500U</h5>
+                                                            </div>
+
+                                                            <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">850.00</span><br>
+
+                                                            <div class="button-prodact">
+                                                                <button type="submit" class="button">
+                                                                    <span>
+                                                                        ADD TO
+                                                                        CART
+                                                                    </span><i class="fa-solid fa-cart-shopping"></i>
+                                                                </button>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <!-- comment -->
+
+
+
+
+
+                                            </div>
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-paginations"></div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                </section>
+
+
+                            </p>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="tab-bar-content" id="item-3">
+                    <div class="texts">
+
+
+                        <p class="paragraph">
+
+
+                            <section id="card">
+
+
+
+
+
+
+                                <div class="container">
+
+                                    <!-- Swiper -->
+                                    <div class="swiper mySwipers ">
+                                        <div class="swiper-wrapper swipers">
+                                            <div class="swiper-slide" data-id="1">
+                                                <div class="card-prodact">
+
+
+                                                    <div class="cards">
+
+
+
+                                                        <div class="img">
+
+                                                            <a href="">
+                                                                <img src="~/./assets/img/Home/card-prodact/headphone 2.png"
+                                                                     alt="">
+                                                            </a>
+
+
+                                                        </div>
+
+                                                        <div class="icon-wishlist">
+
+
+                                                            <a class="heart " href="">
+                                                                <i class="fa-regular fa-heart cardwishlist "></i>
+                                                            </a><br>
+                                                            <a class="eyes" href="">
+                                                                <i class="fa-regular fa-eye eyes"></i><br>
+                                                            </a>
+                                                            <a class="refresh" href="">
+                                                                <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                            </a>
+
+                                                        </div>
+
+
+
+                                                    </div>
+
+
+
+                                                    <div class="addcart">
+
+                                                        <div class="info-prodact">
+
+                                                            <div class="info-pro">
+
+                                                                <h6>Headphones</h6>
+
+                                                            </div>
+
+                                                            <h5>ONTEC E Headset</h5>
+                                                        </div>
+
+                                                        <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                                        <span class="dolaricon">$</span><span class="cardproductprice">175.00</span><br>
+
+                                                        <div class="button-prodact">
+                                                            <button type="submit" class="button">
+                                                                <span>
+                                                                    ADD TO
+                                                                    CART
+                                                                </span><i class="fa-solid fa-cart-shopping"></i>
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="swiper-slide " data-id="2">
+                                                <div class="card-prodact">
+
+
+                                                    <div class="cards">
+
+
+
+
+
+
+                                                        <div class="img">
+
+                                                            <a href="">
+                                                                <img src="~/./assets/img/Home/card-prodact/headphone3.png"
+                                                                     alt="">
+                                                            </a>
+
+
+                                                        </div>
+
+                                                        <div class="icon-wishlist ">
+                                                            <a class="heart" href="">
+                                                                <i class="fa-regular fa-heart cardwishlist "></i>
+                                                            </a><br>
+                                                            <a class="eyes" href="">
+                                                                <i class="fa-regular fa-eye eyes"></i><br>
+                                                            </a>
+                                                            <a class="refresh" href="">
+                                                                <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                            </a>
+
+                                                        </div>
+
+
+                                                    </div>
+
+                                                    <div class="addcart">
+
+                                                        <div class="info-prodact">
+
+                                                            <div class="info-pro">
+
+                                                                <h6>Headphones</h6>
+
+                                                            </div>
+
+                                                            <h5>Solo Headset</h5>
+                                                        </div>
+
+                                                        <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">235.00</span><br>
+
+                                                        <div class="button-prodact">
+                                                            <button type="submit" class="button">
+                                                                <span>
+                                                                    ADD TO
+                                                                    CART
+                                                                </span><i class="fa-solid fa-cart-shopping"></i>
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="swiper-slide" data-id="3">
+
+                                                <div class="card-prodact">
+
+
+
+                                                    <div class="cards">
+
+                                                        <div class="img">
+
+                                                            <a href="">
+                                                                <img src="~/./assets/img/Home/card-prodact/headphone4.png"
+                                                                     alt="">
+                                                            </a>
+
+
+                                                        </div>
+
+                                                        <div class="icon-wishlist">
+                                                            <a class="heart" href="">
+                                                                <i class="fa-regular fa-heart cardwishlist"></i>
+                                                            </a><br>
+                                                            <a class="eyes" href="">
+                                                                <i class="fa-regular fa-eye eyes"></i><br>
+                                                            </a>
+                                                            <a class="refresh" href="">
+                                                                <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                            </a>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="addcart">
+
+                                                        <div class="info-prodact">
+
+                                                            <div class="info-pro">
+
+                                                                <h6>Headphones</h6>
+
+                                                            </div>
+
+                                                            <h5>Ultra Whitte Wireless</h5>
+                                                        </div>
+
+                                                        <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">350.00</span><br>
+
+                                                        <div class="button-prodact">
+                                                            <button type="submit" class="button">
+                                                                <span>
+                                                                    ADD TO
+                                                                    CART
+                                                                </span><i class="fa-solid fa-cart-shopping"></i>
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="swiper-slide" data-id="4">
+                                                <div class="card-prodact">
+
+
+                                                    <div class="cards">
+
+                                                        <div class="img">
+
+                                                            <a href="">
+                                                                <img src="~/./assets/img/Home/card-prodact/headphone en sonuncu.png"
+                                                                     alt="">
+                                                            </a>
+
+
+                                                        </div>
+
+                                                        <div class="icon-wishlist">
+                                                            <a class="heart" href="">
+                                                                <i class="fa-regular fa-heart cardwishlist"></i>
+                                                            </a><br>
+                                                            <a class="eyes" href="">
+                                                                <i class="fa-regular fa-eye eyes"></i><br>
+                                                            </a>
+                                                            <a class="refresh" href="">
+                                                                <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="addcart">
+
+                                                        <div class="info-prodact">
+
+                                                            <div class="info-pro">
+
+                                                                <h6>Headphones</h6>
+
+                                                            </div>
+
+                                                            <h5>Wireless Mondo</h5>
+                                                        </div>
+
+                                                        <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">266.00</span><br>
+
+                                                        <div class="button-prodact">
+                                                            <button type="submit" class="button">
+                                                                <span>
+                                                                    ADD TO
+                                                                    CART
+                                                                </span><i class="fa-solid fa-cart-shopping"></i>
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="swiper-slide" data-id="5">
+                                                <div class="card-prodact">
+
+                                                    <div class="cards">
+
+                                                        <div class="img">
+
+                                                            <a href="">
+                                                                <img src="~/./assets/img/Home/card-prodact/headphone 5.png"
+                                                                     alt="">
+                                                            </a>
+
+
+                                                        </div>
+
+                                                        <div class="icon-wishlist">
+                                                            <a class="heart" href="">
+                                                                <i class="fa-regular fa-heart cardwishlist"></i>
+                                                            </a><br>
+                                                            <a class="eyes" href="">
+                                                                <i class="fa-regular fa-eye eyes"></i><br>
+                                                            </a>
+                                                            <a class="refresh" href="">
+                                                                <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                            </a>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="addcart">
+
+                                                        <div class="info-prodact">
+
+                                                            <div class="info-pro">
+
+                                                                <h6>Headphones</h6>
+
+                                                            </div>
+
+                                                            <h5>Headset Perro</h5>
+                                                        </div>
+
+                                                        <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">88.00</span><br>
+
+                                                        <div class="button-prodact">
+                                                            <button type="submit" class="button">
+                                                                <span>
+                                                                    ADD TO
+                                                                    CART
+                                                                </span><i class="fa-solid fa-cart-shopping"></i>
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="swiper-slide" data-id="6">
+
+                                                <div class="card-prodact">
+
+                                                    <div class="cards">
+
+                                                        <div class="img">
+
+                                                            <a href="">
+                                                                <img src="~/./assets/img/Home/card-prodact/headphone6.png"
+                                                                     alt="">
+                                                            </a>
+
+
+                                                        </div>
+
+
+                                                        <div class="icon-wishlist ">
+                                                            <a class="heart" href="">
+                                                                <i class="fa-regular fa-heart cardwishlist"></i>
+                                                            </a><br>
+                                                            <a class="eyes" href="">
+                                                                <i class="fa-regular fa-eye eyes"></i><br>
+                                                            </a>
+                                                            <a class="refresh" href="">
+                                                                <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                            </a>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="addcart">
+
+                                                        <div class="info-prodact">
+
+                                                            <div class="info-pro">
+
+                                                                <h6>Headphones</h6>
+
+                                                            </div>
+
+                                                            <h5>Dono Purple Wireless</h5>
+                                                        </div>
+
+                                                        <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">100.00</span><br>
+
+                                                        <div class="button-prodact">
+                                                            <button type="submit" class="button">
+                                                                <span>
+                                                                    ADD TO
+                                                                    CART
+                                                                </span><i class="fa-solid fa-cart-shopping"></i>
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="swiper-slide" data-id="7">
+                                                <div class="card-prodact">
+
+                                                    <div class="cards">
+
+                                                        <div class="img">
+
+                                                            <a href="">
+                                                                <img src="~/./assets/img/Home/card-prodact/laptop.png"
+                                                                     alt="">
+                                                            </a>
+
+
+                                                        </div>
+
+
+                                                        <div class="icon-wishlist">
+                                                            <a class="heart" href="">
+                                                                <i class="fa-regular fa-heart cardwishlist"></i>
+                                                            </a><br>
+                                                            <a class="eyes" href="">
+                                                                <i class="fa-regular fa-eye eyes"></i><br>
+                                                            </a>
+                                                            <a class="refresh" href="">
+                                                                <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="addcart">
+
+                                                        <div class="info-prodact">
+
+                                                            <div class="info-pro">
+
+                                                                <h6>Laptops</h6>
+
+                                                            </div>
+
+                                                            <h5>Tablet Red 8500U 2TB</h5>
+                                                        </div>
+
+                                                        <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">100.00</span><br>
+
+                                                        <div class="button-prodact">
+                                                            <button type="submit" class="button">
+                                                                <span>
+                                                                    ADD TO
+                                                                    CART
+                                                                </span><i class="fa-solid fa-cart-shopping"></i>
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="swiper-slide" data-id="8">
+                                                <div class="card-prodact">
+
+                                                    <div class="cards">
+                                                        <div class="img">
+
+                                                            <a href="">
+                                                                <img src="~/./assets/img/Home/card-prodact/laptop (2).png"
+                                                                     alt="">
+                                                            </a>
+
+
+                                                        </div>
+
+
+                                                        <div class="icon-wishlist">
+                                                            <a class="heart" href="">
+                                                                <i class="fa-regular fa-heart cardwishlist "></i>
+                                                            </a><br>
+                                                            <a class="eyes" href="">
+                                                                <i class="fa-regular fa-eye eyes"></i><br>
+                                                            </a>
+                                                            <a class="refresh" href="">
+                                                                <i class="fa-solid fa-arrows-rotate refresh"></i>
+                                                            </a>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="addcart">
+
+                                                        <div class="info-prodact">
+
+                                                            <div class="info-pro">
+
+                                                                <h6>Laptops</h6>
+
+                                                            </div>
+
+                                                            <h5>Ellite Pro Book 15'6 7500U</h5>
+                                                        </div>
+
+                                                        <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="dolaricon">$</span><span class="cardproductprice">850.00</span><br>
+
+                                                        <div class="button-prodact">
+                                                            <button type="submit" class="button">
+                                                                <span>
+                                                                    ADD TO
+                                                                    CART
+                                                                </span><i class="fa-solid fa-cart-shopping"></i>
+                                                            </button>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <!-- comment -->
+
+
+
+
+
+                                        </div>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-paginations"></div>
+                                    </div>
+
+
+                                </div>
+
+
+                            </section>
+
+
+                        </p>
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+
+    <section id="product-baners">
+
+        <div class="container my-5">
+
+
+            <div class="row">
+
+
+                <div class="col-6">
+
+                    <div class="leptop">
+
+                        <div class="leptop-info">
+                            <h4>NEW LAPTOPS</h4>
+                            <p>Sale up to 30% off all products in the new collection.</p>
+                            <a href="">Shop Now</a>
+                        </div>
+
+                        <img src="~/./assets/img/Home/info-prodact/laptop (1).png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="col-6">
+
+                    <div class="row">
+
+                        <div class="col-6">
+
+                            <div class="tablet">
+
+                                <div class="tablet-info">
+                                    <h4>TABLETS, SMARTPHONES AND MORE</h4>
+                                    <span>Sale up to 30%.</span>
+                                    <a href="">Shop Now</a>
+                                </div>
+                                <img src="~/./assets/img/Home/info-prodact/tablet.png" alt="">
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-6">
+
+                            <div class="camera">
+
+                                <div class="camera-info">
+                                    <h4>NEW CAMERAS COLLECTION</h4>
+                                    <span>Sale up to 30%.</span>
+                                    <a href="">Shop Now</a>
+                                </div>
+
+                                <img src="~/./assets/img/Home/info-prodact/cameras.png" alt="">
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-12">
+
+                        <div class="mobile">
+
+                            <div class="mobile-info">
+
+                                <h4>CACH BIG OFFERS ON CAMERAS</h4>
+                                <p>Sale up to 20%.</p>
+                                <a href=""><button type="button" class="btn">$66.99</button></a>
+
+
+
+                                <img src="~/./assets/img/Home/info-prodact/mobiles.png" alt="">
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <section id="prodact-star">
+
+
+        <div class="container">
+
+
+            <div class="row">
+
+
+                <div class="col-4">
+
+
+
+
+
+
+                    <div class="info-prodacts-star">
+
+
+                        <h4>
+                            Featured Products
+                        </h4>
+
+                        <div class="_line">
+
+                            <div class="_line-black">
+                            </div>
+
+                            <div class="_line-gray">
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="info-prodacts-button">
+
+
+
+
+                            <div class="featured-products-img">
+                                <a href="">
+
+                                    <img src="~/./assets/img/Home/star-info-prodact/headphone1.png" alt="">
+                                </a>
+
+
+
+                            </div>
+
+
+
+                            <div class="star-icon">
+
+                                <div class="info-prodact-text">
+                                    <a href="">
+
+                                        <span>
+                                            ONTEC E Headset
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <h6>175.00</h6>
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+
+                        <div class="info-prodacts-button ">
+
+
+
+
+                            <div class="featured-products-img">
+                                <a href="">
+
+                                    <img src="~/./assets/img/Home/star-info-prodact/headphone2.png" alt="">
+                                </a>
+
+
+
+                            </div>
+
+
+
+                            <div class="star-icon">
+
+                                <div class="info-prodact-text">
+                                    <a href="">
+
+                                        <span>
+                                            Solo Headset
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <h6>235.00</h6>
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+                        <div class="info-prodacts-button ">
+
+
+
+
+                            <div class="featured-products-img">
+                                <a href="">
+
+                                    <img src="~/./assets/img/Home/star-info-prodact/headphone3.png" alt="">
+                                </a>
+
+
+
+                            </div>
+
+
+
+                            <div class="star-icon">
+
+                                <div class="info-prodact-text">
+                                    <a href="">
+
+                                        <span>
+                                            Ultra Whitte Wireless
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <h6>350.00</h6>
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+                <!-- Top Selling Products -->
+
+
+                <div class="col-4">
+
+
+                    <div class="info-prodacts-star">
+
+
+                        <h4>
+                            Top Selling Products
+                        </h4>
+
+                        <div class="_line">
+
+                            <div class="_line-black">
+                            </div>
+
+                            <div class="_line-gray">
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="info-prodacts-button">
+
+
+
+
+                            <div class="featured-products-img">
+                                <a href="">
+
+                                    <img src="~/./assets/img/Home/star-info-prodact/laptop1.png" alt="">
+                                </a>
+
+
+
+                            </div>
+
+
+
+                            <div class="star-icon">
+
+                                <div class="info-prodact-text">
+                                    <a href="">
+
+                                        <span>
+                                            Tablet Red 8500U 2TB
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <h6>100.00</h6>
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+
+                        <div class="info-prodacts-button ">
+
+
+
+
+                            <div class="featured-products-img">
+                                <a href="">
+
+                                    <img src="~/./assets/img/Home/star-info-prodact/laptop2.png" alt="">
+                                </a>
+
+
+
+                            </div>
+
+
+
+                            <div class="star-icon">
+
+                                <div class="info-prodact-text">
+                                    <a href="">
+
+                                        <span>
+                                            Ellite Pro Book 15'6 7500U
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <h6>850.00</h6>
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+                        <div class="info-prodacts-button ">
+
+
+
+
+                            <div class="featured-products-img">
+                                <a href="">
+
+                                    <img src="~/./assets/img/Home/star-info-prodact/laptop3.png" alt="">
+                                </a>
+
+
+
+                            </div>
+
+
+
+                            <div class="star-icon">
+
+                                <div class="info-prodact-text">
+                                    <a href="">
+
+                                        <span>
+                                            Tablet VX3000 Extra Light
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <h6>850.00</h6>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                <!-- Hot Offer -->
+
+                <div class="col-4">
+
+                    <div class="info-prodacts-star">
+
+
+                        <h4>
+                            Hot Offer
+                        </h4>
+
+                        <div class="_line">
+
+                            <div class="_line-black">
+                            </div>
+
+                            <div class="_line-gray">
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="info-prodacts-button">
+
+
+
+
+                            <div class="featured-products-img">
+                                <a href="">
+
+                                    <img src="~/./assets/img/Home/star-info-prodact/laptop4.png" alt="">
+                                </a>
+
+
+
+                            </div>
+
+
+
+                            <div class="star-icon">
+
+                                <div class="info-prodact-text">
+                                    <a href="">
+
+                                        <span>
+                                            Tablet VX4000 8500 3TB
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <h6>940.00</h6>
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+
+                        <div class="info-prodacts-button ">
+
+
+
+
+                            <div class="featured-products-img">
+                                <a href="">
+
+                                    <img src="~/./assets/img/Home/star-info-prodact/laptop5.png" alt="">
+                                </a>
+
+
+
+                            </div>
+
+
+
+                            <div class="star-icon">
+
+                                <div class="info-prodact-text">
+                                    <a href="">
+
+                                        <span>
+                                            Laptop Sens 7200L
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <h6>760.00</h6>
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+                        <div class="info-prodacts-button ">
+
+
+
+
+                            <div class="featured-products-img">
+                                <a href="">
+
+                                    <img src="~/./assets/img/Home/star-info-prodact/laptop6.png" alt="">
+                                </a>
+
+
+
+                            </div>
+
+
+
+                            <div class="star-icon">
+
+                                <div class="info-prodact-text">
+                                    <a href="">
+
+                                        <span>
+                                            Laptop XS3000 WiFi Smart
+                                        </span>
+
+                                    </a>
+
+                                </div>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <h6>1,200.00</h6>
+
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+    <div id="overlay"></div>
+
+    <div class="modal d-none">
+        <i class="fa-solid fa-circle-xmark close"></i>
+        <div class="img"><img src="" alt=""></div>
+        <div class="modalproductinfo">
+            <div class="prodnameprice">
+                <h2>Wireless Mondo</h2>
+                <p class="oldprice">
+                    <del><span>$</span><span>266</span></del><span>
+                        50%
+                        Off
+                    </span>
+                </p>
+                <p class="discountprice"><span>$</span><span>266</span></p>
+            </div>
+
+            <div class="productdetails">
+                <h5>Product details</h5>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been
+                    the industrys standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of
+                    type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+
+            <div class="stockavalibility">
+                <span class="avalib">Avalibility:</span><span class="instock">In Stock</span><br>
+                <span>Quantity</span><br>
+                <i class="fa-solid fa-minus"></i> <input min="1" value="1" type="number"><i class="fa-solid fa-plus"></i> <i class="fa-solid fa-cart-shopping cartmini"></i><i class="fa-solid fa-eye eyesss"></i>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>

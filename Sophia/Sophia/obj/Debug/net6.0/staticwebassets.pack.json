@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Sophia.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Sophia.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\about\\about.css",
+      "PackagePath": "staticwebassets\\assets\\css\\about\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\about\\about.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\about\\about.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\about\\about.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\about\\about.scss"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\account\\account.css",
+      "PackagePath": "staticwebassets\\assets\\css\\account\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\account\\account.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\account\\account.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\account\\account.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\account\\account.scss"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\basket-cart\\basket-cart.css",
+      "PackagePath": "staticwebassets\\assets\\css\\basket-cart\\basket-cart.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\basket-cart\\basket-cart.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\basket-cart\\basket-cart.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\basket-cart\\basket-cart.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\basket-cart\\basket-cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\blog\\blog.css",
+      "PackagePath": "staticwebassets\\assets\\css\\blog\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\blog\\blog.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\blog\\blog.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\blog\\blog.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\blog\\blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\checkout\\checkout.css",
+      "PackagePath": "staticwebassets\\assets\\css\\checkout\\checkout.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\checkout\\checkout.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\checkout\\checkout.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\checkout\\checkout.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\checkout\\checkout.scss"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\contact\\contact.css",
+      "PackagePath": "staticwebassets\\assets\\css\\contact\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\contact\\contact.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\contact\\contact.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\contact\\contact.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\contact\\contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\home\\home.css",
+      "PackagePath": "staticwebassets\\assets\\css\\home\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\home\\home.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\home\\home.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\home\\home.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\home\\home.scss"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\product\\product.css",
+      "PackagePath": "staticwebassets\\assets\\css\\product\\product.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\product\\product.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\product\\product.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\product\\product.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\product\\product.scss"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\product\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\product\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\wishtlist\\wishtlist.css",
+      "PackagePath": "staticwebassets\\assets\\css\\wishtlist\\wishtlist.css"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\wishtlist\\wishtlist.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\wishtlist\\wishtlist.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\css\\wishtlist\\wishtlist.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\wishtlist\\wishtlist.scss"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\Slider\\banner1 (4).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\Slider\\banner1 (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\Slider\\banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\Slider\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\Slider\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\Slider\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\Slider\\banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\Slider\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\Slider\\banner5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\Slider\\banner5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\card-prodact\\headphone 2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\card-prodact\\headphone 2.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\card-prodact\\headphone 5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\card-prodact\\headphone 5.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\card-prodact\\headphone en sonuncu.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\card-prodact\\headphone en sonuncu.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\card-prodact\\headphone1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\card-prodact\\headphone1.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\card-prodact\\headphone3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\card-prodact\\headphone3.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\card-prodact\\headphone4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\card-prodact\\headphone4.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\card-prodact\\headphone6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\card-prodact\\headphone6.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\card-prodact\\laptop (2).png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\card-prodact\\laptop (2).png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\card-prodact\\laptop.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\card-prodact\\laptop.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\info-prodact\\cameras.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\info-prodact\\cameras.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\info-prodact\\laptop (1).png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\info-prodact\\laptop (1).png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\info-prodact\\mobiles.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\info-prodact\\mobiles.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\info-prodact\\tablet.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\info-prodact\\tablet.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\logo\\aboutUs.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\logo\\aboutUs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\logo\\logo-02-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\logo\\logo-02-01.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\logo\\logo-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\logo\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\star-info-prodact\\headphone1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\star-info-prodact\\headphone1.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\star-info-prodact\\headphone2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\star-info-prodact\\headphone2.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\star-info-prodact\\headphone3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\star-info-prodact\\headphone3.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\star-info-prodact\\laptop1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\star-info-prodact\\laptop1.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\star-info-prodact\\laptop2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\star-info-prodact\\laptop2.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\star-info-prodact\\laptop3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\star-info-prodact\\laptop3.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\star-info-prodact\\laptop4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\star-info-prodact\\laptop4.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\star-info-prodact\\laptop5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\star-info-prodact\\laptop5.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\Home\\star-info-prodact\\laptop6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Home\\star-info-prodact\\laptop6.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\about\\t1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\t1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\about\\t2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\t2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\about\\t3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\t3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\about\\t4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\t4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\blog\\Cinema sql.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\Cinema sql.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\blog\\b1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\blog\\sql joins guide and syntax.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\sql joins guide and syntax.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\products\\avatar-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\avatar-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\products\\avatar-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\avatar-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\products\\avatar-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\avatar-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\products\\headphone1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\headphone1.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\products\\headphone2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\headphone2.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\img\\products\\headphone3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\headphone3.png"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\assets\\js\\JavaScript.js"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\js\\JavaScript1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\JavaScript1.js"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\js\\about.js",
+      "PackagePath": "staticwebassets\\assets\\js\\about.js"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\js\\basket-cart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\basket-cart.js"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\js\\common.js",
+      "PackagePath": "staticwebassets\\assets\\js\\common.js"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\js\\home.js",
+      "PackagePath": "staticwebassets\\assets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\js\\product.js",
+      "PackagePath": "staticwebassets\\assets\\js\\product.js"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User-BT\\Desktop\\Asp.net\\EntityFramework - Slider task\\Sophia\\Sophia\\wwwroot\\assets\\js\\wishtlist.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wishtlist.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Sophia.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Sophia.props",
+      "PackagePath": "build\\Sophia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Sophia.props",
+      "PackagePath": "buildMultiTargeting\\Sophia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Sophia.props",
+      "PackagePath": "buildTransitive\\Sophia.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
